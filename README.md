@@ -1,2 +1,10 @@
-# random-meal-generator
-This project is a web application that generates random meal ideas to inspire users with new recipes and meal options.
+# Random Meal Generator 🍔
+
+A simple website that generates random meal ideas to inspire you with new recipes.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- [TheMealDB API](https://www.themealdb.com/api.php)
