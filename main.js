@@ -64,13 +64,12 @@ const createMeal = (meal) => {
         </div>
 
         <div class="instructions-section">
-            <h4>${meal.strMeal}</h4>
+            <h4>Instructions</h4>
             <p>${meal.strInstructions}</p>
         </div>
 
         ${meal.strYoutube ? `
         <div class="row">
-            <h5>Video Recipe</h5>
             <div class="videoWrapper">
                 <iframe width="420" height="315"
                 src="https://www.youtube.com/embed/${meal.strYoutube.slice(-11)}">
